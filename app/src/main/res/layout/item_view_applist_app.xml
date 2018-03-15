@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:background="@drawable/selector_applist_item"
+	android:layout_marginTop="8dp">
+	
+	<ImageView
+		android:id="@+id/iv"
+		android:layout_width="@dimen/applist_app_mid"
+		android:layout_height="@dimen/applist_app_mid"/>
+	
+	<TextView
+		android:id="@+id/tv"
+		android:text="label"
+		android:layout_marginLeft="8dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:textSize="@dimen/text_size_index"
+		android:textColor="@color/colorAppIndex"/>
+    
+</LinearLayout>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:layout_marginTop="8dp">
+    
+	<TextView
+		android:id="@+id/tv"
+		android:text="#"
+		android:background="@drawable/shape_applist_index"
+		android:layout_width="60dp"
+		android:gravity="center"
+		android:textColor="@color/colorAppIndex"
+		android:textSize="@dimen/text_size_index"
+		android:layout_height="60dp"
+		android:padding="2dp"/>
+</LinearLayout>

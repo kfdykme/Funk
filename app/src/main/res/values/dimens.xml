@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size_index">30sp</dimen>
+    <dimen name="text_size_index_min">10sp</dimen>
+    <dimen name="applist_app_mid">50dp</dimen>
+    <dimen name="perS">8dp</dimen>
+
+</resources>
